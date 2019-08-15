@@ -1,9 +1,7 @@
-# encoding
 export LANG=zh_CN.UTF-8
-export LANGUGE=zh_CN:en_US
+export LANGUGE=en_US:zh_CN
 export LC_CTYPE=en_US.UTF-8
 
-# inputting method
 export XIM=fcitx
 export XIM_PROGRAM=fcitx
 export GTK_IM_MODULE=fcitx
