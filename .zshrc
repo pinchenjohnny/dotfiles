@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jwcp2016/.oh-my-zsh"
+export ZSH="/home/pinchen/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,3 +103,7 @@ alias cl=clear
 alias rm='rm -r'
 alias cp='cp -r'
 alias src='source'
+alias gc='git clone'
+alias ga='git add -A'
+alias gcm='git commit -m'
+alias gp='git push'
