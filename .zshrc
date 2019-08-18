@@ -107,3 +107,7 @@ alias gc='git clone'
 alias ga='git add -A'
 alias gcm='git commit -m'
 alias gp='git push'
+
+# autojump
+[[ -s /home/pinchen/.autojump/etc/profile.d/autojump.sh  ]] && source /home/pinchen/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
