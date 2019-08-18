@@ -22,7 +22,7 @@ let &t_ut=''
 " === Main code display
 " ===
 set number
-set relativenumber
+" set relativenumber
 set ruler
 "set cursorline
 syntax enable
@@ -52,7 +52,7 @@ set foldmethod=indent
 set foldlevel=99
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+" let &t_SR = "\<Esc>]50;CursorShape=2\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " ===
@@ -333,7 +333,8 @@ Plug 'vim-scripts/indentpython.vim'
 " Plug 'vim-python/python-syntax', { 'for' :['python', 'vim-plug'] }
 
 " Markdown
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
+Plug 'iamcco/markdown-preview.nvim'
+" , { 'do': { -> mkdp#util#install_sync() }, 'for' :['markdown', 'vim-plug'] }
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
 Plug 'vimwiki/vimwiki'
 
@@ -377,7 +378,7 @@ source ~/.vim/_machine_specific.vim
 map <LEADER>c1 :set background=dark<CR>:colorscheme snazzy<CR>:AirlineTheme dracula<CR>
 map <LEADER>c2 :set background=light<CR>:colorscheme ayu<CR>:AirlineTheme ayu_light<CR>
 
-set termguicolors     " enable true colors support
+" set termguicolors     " enable true colors support
 let ayucolor="light"  " for light version of theme
 " let ayucolor="mirage" " for mirage version of theme
 " let ayucolor="dark"   " for dark version of theme
