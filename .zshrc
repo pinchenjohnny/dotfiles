@@ -108,6 +108,8 @@ alias ga='git add -A'
 alias gcm='git commit -m'
 alias gp='git push'
 
+# anaconda
+export PATH=$PATH:/home/pinchen/anaconda3/bin
+
 # autojump
-[[ -s /home/pinchen/.autojump/etc/profile.d/autojump.sh  ]] && source /home/pinchen/.autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
+[[ -s /home/pinchen/.autojump/etc/profile.d/autojump.sh ]] && source /home/pinchen/.autojump/etc/profile.d/autojump.sh

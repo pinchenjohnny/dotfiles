@@ -304,7 +304,7 @@ Plug 'w0rp/ale'
 
 " Auto Complete
 " Plug 'Valloric/YouCompleteMe'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'davidhalter/jedi-vim'
 
 " Undo Tree
